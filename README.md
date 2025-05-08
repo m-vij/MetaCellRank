@@ -1,5 +1,5 @@
 # MetaCellRank Computational Genomics Final Project
-Requirements.text
+Requirements.txt
 
 This file shows all the required libraries needed to run MetaCellRank. DO NOT use this file to run the code, but only for inspection of the required libraries. The provided  .ipynb file in Google Colab will make these imports and should be used to run the code. 
 
