@@ -2,12 +2,11 @@
 
 **Computational_Genomics_Final_Project_Submission.ipynb**
 
-This file contains all the driver code that should be run. The entire notebook, when run using the in-built methods, can take about 1 hour and 30 minutes to finish running. However, intermediate files called M_spliced.csv and M_unspliced.csv have been provided that have pre-computed results for the most time-consuming part of the model (however, these files were run with one set of parmeter configurations that are set as default in the notebook, if you want to change the parameters in the notebook, you will have to re-run from scratch). If you are using the intermediate results that are provided in the csv files, you will have to uncomment the lines in the cell titled "Run Approach 1 Pipeline With Specified Parameters" and also make sure to upload the two files into the files tab in the sidebar. The Google Colab notebook points out where to do this. 
-
+This file contains all the driver code that should be run. Input datasets are loaded from the scv package. (Sample output can be found in Example_Run.py.) Running all cells in the notebook takes up to 1 hour and 30 minutes. However, intermediate files named M_spliced.csv and M_unspliced.csv have been provided as pre-computed results for the most time-consuming part of the model. (These files were run with one set of parmeter configurations that are set as default in the notebook. If you want to change the parameters in the notebook, you will have to re-run from scratch.) If you are using the intermediate results that are provided in the csv files, uncomment the lines in the cell titled "Run Approach 1 Pipeline With Specified Parameters" and upload the two files into the files tab in the sidebar. More detailed instructions can be found in the notebook.
 
 requirements.txt
 
-This file shows all the required libraries needed to run MetaCellRank. DO NOT use this file to run the code, but only for inspection of the required libraries. The provided  .ipynb file in Google Colab will make these imports and should be used to run the code. 
+This file shows all the required libraries needed to run MetaCellRank. DO NOT use this file to run the code, but only for inspection of the required libraries. The provided .ipynb file in Google Colab will make these imports and should be used to run the code. 
 
 Approach1.py
 
@@ -19,7 +18,7 @@ This file contains all required imports, helper functions, dataset loading code,
 
 Example_Run.ipynb
 
-This file contains an example Google Colab notebook of what the expected output should look like. DO NOT run this code, but can be used as reference.
+This file contains an example Google Colab notebook of what the expected output should look like. DO NOT run this code. but can be used as reference.
 
 M_spliced.csv, M_unspliced.csv
 
